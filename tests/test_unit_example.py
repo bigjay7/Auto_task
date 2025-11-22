@@ -1,6 +1,8 @@
 
-from app import app, index, items
 from flask import template_rendered
+
+from app import app, index, items
+
 
 def test_index_direct_call():
     items.clear()

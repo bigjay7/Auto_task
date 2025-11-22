@@ -1,6 +1,8 @@
 # tests/test_integration_example.py
 import pytest
+
 from app import add_item, app, items
+
 
 @pytest.fixture
 def client():
